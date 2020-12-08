@@ -1,0 +1,14 @@
+#include <iostream>
+#include "functions.h"
+
+int main ()
+{
+    using namespace std;
+    
+    print_hello();
+    
+    cout << endl;
+    cout << "The factorial of 5 is " << factorial(5) << endl;
+    
+    return 0;
+}
